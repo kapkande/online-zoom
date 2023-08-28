@@ -1,0 +1,268 @@
+.video__asideBar-item,
+.video__asideBar-arrow {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.video__asideBar {
+    height: 652px;
+    width: 99px;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+.asideBar__item-0 {
+    transform: translate(10%, 0%);
+}
+
+.asideBar__item-1 {
+    transform: translate(10%, 104%);
+}
+
+.asideBar__item-2 {
+    transform: translate(10%, 208%);
+}
+
+.asideBar__item-3 {
+    transform: translate(10%, 312%);
+}
+
+.asideBar__item-4 {
+    transform: translate(10%, 416%);
+}
+
+.asideBar__item-5 {
+    transform: translate(10%, 518%);
+}
+
+.asideBar__item-6,
+.asideBar__item-7 {
+    opacity: 0;
+}
+
+
+.video__title {
+    color: rgba(51, 59, 65, 1);
+    font-size: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.video__view {
+    width: 1160px;
+    height: 652px;
+}
+
+.video__videoBlock {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+
+
+.video__choiceVideo__back,
+.video__choiceVideo__ahead {
+    background-image: url(../../assets/icons/zoos/arrow.svg);
+    background-position: center;
+    background-color: #FE9013;
+    width: 62px;
+    height: 62px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.video__choiceVideo__back:hover,
+.video__choiceVideo__ahead:hover {
+    /* background-color: #4B9200; */
+}
+
+.video__choiceVideo__ahead {
+    transform: scaleX(-1);
+}
+
+.video__choiceVideoBlock {
+    display: flex;
+    width: 1160px;
+    justify-content: space-around;
+
+}
+
+.video__choiceVideo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video__choice__item {
+    background-repeat: no-repeat;
+    width: 267px;
+    height: 180px;
+    background-position: center;
+    cursor: pointer;
+}
+
+.video__choice__item:hover {
+    border: orange solid 4px;
+    box-sizing: border-box;
+    border-radius: 2%;
+
+}
+
+.video__choice__item-active,
+.video__choice__item:active {
+    border: #4B9200 solid 4px;
+    box-sizing: border-box;
+    border-radius: 2%;
+}
+
+.asideBar__item__gorilla {
+    background-image: url(../../assets/icons/zoos/gorilla.svg);
+}
+
+.asideBar__item__gorilla.iconActive,
+.asideBar__item__gorilla-target {
+    background-image: url(../../assets/icons/zoos/gorilla-active.svg);
+}
+
+.asideBar__item__alligator {
+    background-image: url(../../assets/icons/zoos/alligator.svg);
+}
+
+.asideBar__item__alligator.iconActive,
+.asideBar__item__alligator-target {
+    background-image: url(../../assets/icons/zoos/alligator-active.svg);
+}
+
+.asideBar__item__panda {
+    background-image: url(../../assets/icons/zoos/panda.svg);
+}
+
+.asideBar__item__panda.iconActive,
+.asideBar__item__panda-target {
+    background-image: url(../../assets/icons/zoos/panda-active.svg);
+}
+
+
+.asideBar__item__eagle {
+    background-image: url(../../assets/icons/zoos/eagle.svg);
+}
+
+.asideBar__item__eagle.iconActive,
+.asideBar__item__eagle-target {
+    background-image: url(../../assets/icons/zoos/eagle-active.svg);
+}
+
+.video__asideBar-arrow {
+    background-image: url(../../assets/icons/zoos/sidebarArrow.svg);
+    transform: translate(10%, 622%);
+    background-repeat: no-repeat;
+}
+
+.video__asideBar-arrow.iconTarget {
+    background-image: url(../../assets/icons/zoos/sidebarArrow-active.svg);
+}
+
+.info__textBlock__subtitle {
+
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+}
+
+.info__text {
+    padding: 5px 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+.info__brief__image {
+    width: 422px;
+    height: 421px;
+    flex: 1 0 422px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info__briefBlok {
+    display: flex;
+}
+
+.info__brief__textBlock {
+    padding: 0 5%;
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: #ABABAB;
+
+}
+
+.info__brief__button {
+    margin: 7% 7% 2% 0;
+}
+
+.info__title {
+    color: rgba(75, 146, 0, 1);
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: 0em;
+
+
+}
+
+.info__textBlock-trans {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.info__text {
+    position: relative;
+}
+
+.info__textBlock__trans {
+    width: inherit;
+    position: absolute;
+    height: 80px;
+    bottom: 0;
+    pointer-events: none;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    transition: 1s;
+    width: 100%;
+}
+
+
+.info__button {
+    width: 129px;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid #333B41;
+}
+
+.info__button:hover {
+    color: #E47209;
+    border: 1px solid #E47209;
+}
+
+.info__button:hover {
+    color: green;
+    border: 1px solid green;
+}
+
+.info {
+    background: url(../../assets/imeges/palm_foto.png) bottom left no-repeat, url(../../assets/imeges/strelitzia.png) right bottom no-repeat;
+    padding-bottom: 25%;
+}
